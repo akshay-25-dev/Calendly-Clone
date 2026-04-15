@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+calendly-backend/node_modules/
+
+# Environment variables (contains DB credentials - never commit these!)
+.env
+calendly-backend/.env
+
+# Build output
+.dist/
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
